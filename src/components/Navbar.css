@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar-btn {
+    position: relative;
+  }
+
+  .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+  }
+
+  a{
+    text-decoration: none;
+    color: orange;
+  }
+
+  a:hover{
+    color: orangered;
+  }
+  
+ 
+
+  .logout-btn{
+    border:none;
+    background-color: #333;
+    border-radius: 30%;
+    margin-right: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+  }

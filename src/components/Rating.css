@@ -1,0 +1,56 @@
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem;
+    text-align: center;
+  }
+  
+  .r-head {
+    margin-bottom: 0rem;
+  }
+  
+  .rating-section {
+    margin-bottom: 0rem;
+  }
+  
+  .star-rating {
+    display: flex;
+    justify-content: center;
+    margin: rem;
+  }
+  
+  .star {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .star-icon {
+    display: inline-block;
+    width: 1em;
+    overflow: hidden;
+  }
+  
+  .filled {
+    color: red;
+  }
+  
+  .selected-rating {
+    font-weight: bold;
+  }
+  
+  .radio {
+    visibility: hidden;
+  }
+  
+  @media (max-width: 600px) {
+    .rating-container {
+      margin: 1rem;
+    }
+    .r-head {
+      font-size: 15px;
+    }
+  }
+  
